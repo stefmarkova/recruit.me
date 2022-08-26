@@ -1,7 +1,6 @@
 ﻿namespace RecruitMe.Data
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
     using System.Threading;
@@ -9,8 +8,7 @@
 
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
-    using Microsoft.EntityFrameworkCore.ChangeTracking;
-    using Microsoft.EntityFrameworkCore.Metadata;
+
     using RecruitMe.Data.Common.Models;
     using RecruitMe.Data.Models;
     using RecruitMe.Data.Models.EnumModels;
